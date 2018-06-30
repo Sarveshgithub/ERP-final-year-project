@@ -6,7 +6,6 @@ include 'connection.php';
 if(isset($_POST["addproduct"]))
 	{   
 			$p_id=$_POST["p_id"];
-			
 			$p_name=$_POST["p_name"];
 			$p_price=$_POST["p_price"];
 			$p_quantity=$_POST["p_quantity"];
